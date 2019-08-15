@@ -83,7 +83,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git学习笔记">
 <meta property="og:url" content="http://yoursite.com/2019/08/15/Git学习笔记/index.html">
-<meta property="og:site_name" content="逐风">
+<meta property="og:site_name" content="追风">
 <meta property="og:description" content="这是我的第一个git笔记.虽然以前零零散散学过几次git但都没有系统地整理过,这次把它记录下来免得以后再重学. 基础初始配置123$ git init$ git config --global user.name = &quot;name&quot;$ git config --global user.email = &quot;email&quot; 提交本地代码12345$ git add [filename]$ git commi">
 <meta property="og:locale" content="default">
 <meta property="og:updated_time" content="2019-08-15T06:36:07.584Z">
@@ -125,7 +125,7 @@
 
 
 
-  <title>Git学习笔记 | 逐风</title>
+  <title>Git学习笔记 | 追风</title>
   
 
 
@@ -155,7 +155,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">逐风</span>
+        <span class="site-title">追风</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -220,153 +220,6 @@
 
   <div id="posts" class="posts-expand">
     
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/15/Git学习笔记/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Lynne">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="逐风">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">Git学习笔记</h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-08-15T14:33:29+08:00">
-                2019-08-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <p>这是我的第一个git笔记.虽然以前零零散散学过几次git但都没有系统地整理过,这次把它记录下来免得以后再重学.</p>
-<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h3 id="初始配置"><a href="#初始配置" class="headerlink" title="初始配置"></a>初始配置</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git init</span><br><span class="line"><span class="meta">$</span> git config --global user.name = "name"</span><br><span class="line"><span class="meta">$</span> git config --global user.email = "email"</span><br></pre></td></tr></table></figure>
-<h3 id="提交本地代码"><a href="#提交本地代码" class="headerlink" title="提交本地代码"></a>提交本地代码</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git add [filename]</span><br><span class="line"><span class="meta">$</span> git commit -m "your comment"</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span> git add .</span><br><span class="line">.gitignore文件可以用于排除</span><br></pre></td></tr></table></figure>
-<h3 id="查看改动"><a href="#查看改动" class="headerlink" title="查看改动"></a>查看改动</h3><p>查看当前未提交的改动过的文件</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git status</span><br></pre></td></tr></table></figure>
-<p>查看具体改动</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git diff</span><br></pre></td></tr></table></figure>
-<h3 id="查看提交记录"><a href="#查看提交记录" class="headerlink" title="查看提交记录"></a>查看提交记录</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git log</span><br></pre></td></tr></table></figure>
-<h3 id="撤销未提交的更改"><a href="#撤销未提交的更改" class="headerlink" title="撤销未提交的更改"></a>撤销未提交的更改</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git checkout [filename]</span><br></pre></td></tr></table></figure>
-<h3 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git reset --hard [版本号]</span><br></pre></td></tr></table></figure>
-<p>查看历史</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git reflog</span><br></pre></td></tr></table></figure>
-<h3 id="关联github"><a href="#关联github" class="headerlink" title="关联github"></a>关联github</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git remote origin master "repo_adress"</span><br></pre></td></tr></table></figure>
-<h3 id="推送到github"><a href="#推送到github" class="headerlink" title="推送到github"></a>推送到github</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push origin [branch_name]</span><br></pre></td></tr></table></figure>
-<h2 id="分支管理"><a href="#分支管理" class="headerlink" title="分支管理"></a>分支管理</h2><h3 id="创建分支"><a href="#创建分支" class="headerlink" title="创建分支"></a>创建分支</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git branch branch_name</span><br></pre></td></tr></table></figure>
-<h3 id="切换分支"><a href="#切换分支" class="headerlink" title="切换分支"></a>切换分支</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git checkout [-b]  branch_name</span><br></pre></td></tr></table></figure>
-<p>-b 参数表示创建并切换</p>
-<h3 id="查看分支"><a href="#查看分支" class="headerlink" title="查看分支"></a>查看分支</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git branch</span><br></pre></td></tr></table></figure>
-<h3 id="合并分支"><a href="#合并分支" class="headerlink" title="合并分支"></a>合并分支</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">合并指定分支到当前分支</span><br><span class="line"><span class="meta">$</span> git merge branch_name</span><br></pre></td></tr></table></figure>
-<h3 id="删除分支"><a href="#删除分支" class="headerlink" title="删除分支"></a>删除分支</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git branch -d branch_name</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2019/08/15/汇编笔记/" rel="next" title="汇编笔记">
-                <i class="fa fa-chevron-left"></i> 汇编笔记
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
 
     <div class="post-spread">
       
@@ -501,6 +354,15 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Lynne</span>
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">864</span>
   
 </div>
 
