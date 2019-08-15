@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang>
+<html class="theme-next gemini use-motion" lang>
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="1. 基础1.1 整数表示1.2 浮点数表示2. X86汇编与Ｃ语言2.1 X86_64指令的特点2.1.1 数据格式   后缀suffix 名称name 大小size     b 字节byte 1 byte   w 字word 2 bytes   l 双字long 4 bytes   q 四字quadword 8 bytes    2.1.2 寻址方式 D(Rb, Ri, S) 表示　Ｍem[R">
+<meta name="description" content="1. 基础1.1 整数表示 1.2 浮点数表示 2. X86汇编与Ｃ语言2.1 X86_64指令的特点2.1.1 数据格式   后缀suffix 名称name 大小size     b 字节byte 1 byte   w 字word 2 bytes   l 双字long 4 bytes   q 四字quadword 8 bytes    2.1.2 寻址方式 D(Rb, Ri, S) 表示　Ｍem">
 <meta property="og:type" content="article">
 <meta property="og:title" content="汇编笔记">
 <meta property="og:url" content="http://yoursite.com/2019/08/15/汇编笔记/index.html">
 <meta property="og:site_name" content="Linn">
-<meta property="og:description" content="1. 基础1.1 整数表示1.2 浮点数表示2. X86汇编与Ｃ语言2.1 X86_64指令的特点2.1.1 数据格式   后缀suffix 名称name 大小size     b 字节byte 1 byte   w 字word 2 bytes   l 双字long 4 bytes   q 四字quadword 8 bytes    2.1.2 寻址方式 D(Rb, Ri, S) 表示　Ｍem[R">
+<meta property="og:description" content="1. 基础1.1 整数表示 1.2 浮点数表示 2. X86汇编与Ｃ语言2.1 X86_64指令的特点2.1.1 数据格式   后缀suffix 名称name 大小size     b 字节byte 1 byte   w 字word 2 bytes   l 双字long 4 bytes   q 四字quadword 8 bytes    2.1.2 寻址方式 D(Rb, Ri, S) 表示　Ｍem">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-08-15T02:08:34.860Z">
+<meta property="og:updated_time" content="2019-08-15T03:13:11.718Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="汇编笔记">
-<meta name="twitter:description" content="1. 基础1.1 整数表示1.2 浮点数表示2. X86汇编与Ｃ语言2.1 X86_64指令的特点2.1.1 数据格式   后缀suffix 名称name 大小size     b 字节byte 1 byte   w 字word 2 bytes   l 双字long 4 bytes   q 四字quadword 8 bytes    2.1.2 寻址方式 D(Rb, Ri, S) 表示　Ｍem[R">
+<meta name="twitter:description" content="1. 基础1.1 整数表示 1.2 浮点数表示 2. X86汇编与Ｃ语言2.1 X86_64指令的特点2.1.1 数据格式   后缀suffix 名称name 大小size     b 字节byte 1 byte   w 字word 2 bytes   l 双字long 4 bytes   q 四字quadword 8 bytes    2.1.2 寻址方式 D(Rb, Ri, S) 表示　Ｍem">
 
 
 
@@ -97,7 +97,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Gemini',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -299,7 +299,9 @@
       
 
       
-        <h2 id="1-基础"><a href="#1-基础" class="headerlink" title="1. 基础"></a>1. 基础</h2><h3 id="1-1-整数表示"><a href="#1-1-整数表示" class="headerlink" title="1.1 整数表示"></a>1.1 整数表示</h3><h3 id="1-2-浮点数表示"><a href="#1-2-浮点数表示" class="headerlink" title="1.2 浮点数表示"></a>1.2 浮点数表示</h3><h2 id="2-X86汇编与C语言"><a href="#2-X86汇编与C语言" class="headerlink" title="2. X86汇编与Ｃ语言"></a>2. X86汇编与Ｃ语言</h2><h3 id="2-1-X86-64指令的特点"><a href="#2-1-X86-64指令的特点" class="headerlink" title="2.1 X86_64指令的特点"></a>2.1 X86_64指令的特点</h3><h4 id="2-1-1-数据格式"><a href="#2-1-1-数据格式" class="headerlink" title="2.1.1 数据格式"></a>2.1.1 数据格式</h4><table>
+        <h2 id="1-基础"><a href="#1-基础" class="headerlink" title="1. 基础"></a>1. 基础</h2><p>1.1 整数表示</p>
+<p>1.2 浮点数表示</p>
+<h2 id="2-X86汇编与C语言"><a href="#2-X86汇编与C语言" class="headerlink" title="2. X86汇编与Ｃ语言"></a>2. X86汇编与Ｃ语言</h2><h3 id="2-1-X86-64指令的特点"><a href="#2-1-X86-64指令的特点" class="headerlink" title="2.1 X86_64指令的特点"></a>2.1 X86_64指令的特点</h3><h4 id="2-1-1-数据格式"><a href="#2-1-1-数据格式" class="headerlink" title="2.1.1 数据格式"></a>2.1.1 数据格式</h4><table>
 <thead>
 <tr>
 <th>后缀suffix</th>
@@ -337,33 +339,44 @@
 <p>Ri: 索引寄存器　[排除%rsp]</p>
 <p>S: 比例因子, 通常为数据格式的大小</p>
 </blockquote>
-<h4 id="2-1-3-常用指令"><a href="#2-1-3-常用指令" class="headerlink" title="2.1.3 常用指令"></a>2.1.3 常用指令</h4><h6 id="1-movq-S-D"><a href="#1-movq-S-D" class="headerlink" title="1. movq S D"></a>1. movq S D</h6><p>将S的值赋给D</p>
-<h6 id="2-leaq-S-D"><a href="#2-leaq-S-D" class="headerlink" title="2. leaq S D"></a>2. leaq S D</h6><p>从地址计算表达式S计算出地址赋给D </p>
+<h4 id="2-1-3-常用指令"><a href="#2-1-3-常用指令" class="headerlink" title="2.1.3 常用指令"></a>2.1.3 常用指令</h4><ol>
+<li><p><strong>movq S D</strong></p>
+<p>将S的值赋给D</p>
+</li>
+<li><p><strong>leaq S D</strong> </p>
+<p>从地址计算表达式S计算出地址赋给D </p>
 <p>另类常用用法: 计算x+k*y类型的整数运算</p>
-<h6 id="3-sarq-S-D-D-gt-gt-S"><a href="#3-sarq-S-D-D-gt-gt-S" class="headerlink" title="3. sarq S D            D &gt;&gt;= S"></a>3. sarq S D            D &gt;&gt;= S</h6><p>a/h 表示　算数/逻辑</p>
+</li>
+<li><p><strong>sarq S D</strong></p>
+<p>D &gt;&gt;= S</p>
+<p>a/h 表示　算数/逻辑</p>
 <p>r/l 表示右移/左移</p>
-<h3 id="2-2-条件码"><a href="#2-2-条件码" class="headerlink" title="2.2 条件码"></a>2.2 条件码</h3><h4 id="2-2-1-符号表示"><a href="#2-2-1-符号表示" class="headerlink" title="2.2.1 符号表示"></a>2.2.1 符号表示</h4><p><strong>CF</strong>        进位标志Carry Flag</p>
+</li>
+</ol>
+<h3 id="2-2-条件码"><a href="#2-2-条件码" class="headerlink" title="2.2 条件码"></a>2.2 条件码</h3><h4 id="2-2-1-符号表示"><a href="#2-2-1-符号表示" class="headerlink" title="2.2.1 符号表示"></a>2.2.1 符号表示</h4><blockquote>
+<p><strong>CF</strong>        进位标志Carry Flag</p>
 <p><strong>ZF</strong>        判零标志Zero Flag</p>
 <p><strong>SF</strong>        判负标志Sign Flag</p>
 <p><strong>OF</strong>       补码溢出标志Overflow Flag</p>
-<p>这些条件码由算数指令(不包括leaq)隐含设置</p>
-<p>add, sub, cmp…</p>
-<p><strong>比较指令</strong> cmp b a 类似于计算a-b, 然后设置条件码</p>
-<p><strong>测试指令</strong> testq b a 计算 a&amp;b</p>
+</blockquote>
+<p>这些条件码由算数指令隐含设置(add, sub, cmp…不包括leaq)</p>
+<p><strong>比较指令</strong> cmp b a </p>
+<p>​    类似于计算a-b, 然后设置条件码</p>
+<p><strong>测试指令</strong> testq b a </p>
+<p>​    计算 a&amp;b</p>
 <h4 id="2-2-2-读取条件码"><a href="#2-2-2-读取条件码" class="headerlink" title="2.2.2 读取条件码"></a>2.2.2 读取条件码</h4><p><strong>SetX 指令</strong></p>
+<blockquote>
 <p><em>signed</em>: setg, setge, setl, setle</p>
 <p><em>unsigned</em>: seta, setb</p>
-<p>SetX S</p>
-<p>movzbl S D</p>
-<p>读取当前条件码并存入目的”字节”寄存器 S</p>
-<p>使用<strong>movzbl</strong>对目的寄存器进行0扩展: S存入D的低字节, 高8补0?？</p>
-<p><strong>jX 指令</strong></p>
-<p>条件跳转, 功能是根据条件码选择下一条执行语句</p>
-<p><strong>cmovX S D指令</strong></p>
-<p>条件移动</p>
-<p>若X满足, 则 D = S</p>
-<p>注意: 若操作数中有地址表达式,则<strong>先访存, 后比较</strong></p>
-<h3 id="2-3-循环控制"><a href="#2-3-循环控制" class="headerlink" title="2.3 循环控制"></a>2.3 循环控制</h3><h2 id="MIPS"><a href="#MIPS" class="headerlink" title="MIPS"></a>MIPS</h2>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">SetX S</span><br><span class="line">movzbl S D</span><br><span class="line">读取当前条件码并存入目的&quot;字节&quot;寄存器 S</span><br><span class="line">使用**movzbl**对目的寄存器进行0扩展: S存入D的低字节, 高8补0?？</span><br><span class="line"></span><br><span class="line">jX S</span><br><span class="line">条件跳转, 功能是根据条件码选择下一条执行语句</span><br><span class="line"></span><br><span class="line">cmovX S D</span><br><span class="line">条件移动, 若X满足, 则 D = S</span><br><span class="line">注意: 若操作数中有地址表达式,则先访存, 后比较</span><br></pre></td></tr></table></figure>
+<h3 id="2-3-循环控制"><a href="#2-3-循环控制" class="headerlink" title="2.3 循环控制"></a>2.3 循环控制</h3><h4 id="2-3-1-do-while"><a href="#2-3-1-do-while" class="headerlink" title="2.3.1 do-while"></a>2.3.1 do-while</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"># C Code</span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="title">pcount_do</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">long</span> x)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">long</span> result = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">do</span> &#123;</span><br><span class="line">        result += x &amp; <span class="number">0x1</span>;</span><br><span class="line">        x &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">    &#125; <span class="keyword">while</span> (x);</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"># Goto version</span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="title">pcount_goto</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">long</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">long</span> result = <span class="number">0</span>;</span><br><span class="line">    loop:</span><br><span class="line">    result += x &amp; <span class="number">0x1</span>;</span><br><span class="line">    x &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span>(x) <span class="keyword">goto</span> loop;</span><br><span class="line">    	<span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>经过编译后</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">	movl $0, %eax 			# result = 0</span><br><span class="line">.L2:						# loop:</span><br><span class="line">    movq %rdi, %rdx</span><br><span class="line">    andl $1, %edx			# t = x &amp; 0x1</span><br><span class="line">    addq %rdx, %rax			# result += t</span><br><span class="line">    shrq %rdi				#x &gt;&gt;= 1</span><br><span class="line">    jne .L2					# if (x) goto loop</span><br><span class="line">rep; ret</span><br></pre></td></tr></table></figure>
+<h4 id="2-3-2-while-do"><a href="#2-3-2-while-do" class="headerlink" title="2.3.2 while-do"></a>2.3.2 while-do</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"># C Code</span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="title">pcount_while</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">long</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">long</span> result = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span> (x) &#123;</span><br><span class="line">        result += x &amp; <span class="number">0x1</span>;</span><br><span class="line">        x &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="title">pcount_goto_jtm</span> <span class="params">(<span class="keyword">unsigned</span> <span class="keyword">long</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">long</span> result = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">goto</span> test;</span><br><span class="line">    loop:</span><br><span class="line">        result += x &amp; <span class="number">0x1</span>;</span><br><span class="line">        x &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">    test:</span><br><span class="line">    	<span class="keyword">if</span>(x) <span class="keyword">goto</span> loop;</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>转换成do-while会增加条件跳转指令, 引起性能损失</p>
+<h4 id="2-3-3-for"><a href="#2-3-3-for" class="headerlink" title="2.3.3 for"></a>2.3.3 for</h4><p>转换成while-do</p>
+<h4 id="2-3-4-switch"><a href="#2-3-4-switch" class="headerlink" title="2.3.4 switch"></a>2.3.4 switch</h4><h2 id="MIPS"><a href="#MIPS" class="headerlink" title="MIPS"></a>MIPS</h2>
       
     </div>
     
@@ -383,6 +396,22 @@
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/08/15/Git学习笔记/" rel="prev" title="Git学习笔记">
+                Git学习笔记 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
@@ -456,7 +485,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -470,6 +499,16 @@
 
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/Fenlynne" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -493,7 +532,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-基础"><span class="nav-number">1.</span> <span class="nav-text">1. 基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-整数表示"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 整数表示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-浮点数表示"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 浮点数表示</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-X86汇编与C语言"><span class="nav-number">2.</span> <span class="nav-text">2. X86汇编与Ｃ语言</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-X86-64指令的特点"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 X86_64指令的特点</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-1-数据格式"><span class="nav-number">2.1.1.</span> <span class="nav-text">2.1.1 数据格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-2-寻址方式"><span class="nav-number">2.1.2.</span> <span class="nav-text">2.1.2 寻址方式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-3-常用指令"><span class="nav-number">2.1.3.</span> <span class="nav-text">2.1.3 常用指令</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#1-movq-S-D"><span class="nav-number">2.1.3.0.1.</span> <span class="nav-text">1. movq S D</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#2-leaq-S-D"><span class="nav-number">2.1.3.0.2.</span> <span class="nav-text">2. leaq S D</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#3-sarq-S-D-D-gt-gt-S"><span class="nav-number">2.1.3.0.3.</span> <span class="nav-text">3. sarq S D            D &gt;&gt;= S</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-条件码"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 条件码</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-1-符号表示"><span class="nav-number">2.2.1.</span> <span class="nav-text">2.2.1 符号表示</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-2-读取条件码"><span class="nav-number">2.2.2.</span> <span class="nav-text">2.2.2 读取条件码</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-循环控制"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 循环控制</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#MIPS"><span class="nav-number">3.</span> <span class="nav-text">MIPS</span></a></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-基础"><span class="nav-number">1.</span> <span class="nav-text">1. 基础</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-X86汇编与C语言"><span class="nav-number">2.</span> <span class="nav-text">2. X86汇编与Ｃ语言</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-X86-64指令的特点"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 X86_64指令的特点</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-1-数据格式"><span class="nav-number">2.1.1.</span> <span class="nav-text">2.1.1 数据格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-2-寻址方式"><span class="nav-number">2.1.2.</span> <span class="nav-text">2.1.2 寻址方式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-3-常用指令"><span class="nav-number">2.1.3.</span> <span class="nav-text">2.1.3 常用指令</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-条件码"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 条件码</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-1-符号表示"><span class="nav-number">2.2.1.</span> <span class="nav-text">2.2.1 符号表示</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-2-读取条件码"><span class="nav-number">2.2.2.</span> <span class="nav-text">2.2.2 读取条件码</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-循环控制"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 循环控制</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3-1-do-while"><span class="nav-number">2.3.1.</span> <span class="nav-text">2.3.1 do-while</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3-2-while-do"><span class="nav-number">2.3.2.</span> <span class="nav-text">2.3.2 while-do</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3-3-for"><span class="nav-number">2.3.3.</span> <span class="nav-text">2.3.3 for</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3-4-switch"><span class="nav-number">2.3.4.</span> <span class="nav-text">2.3.4 switch</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#MIPS"><span class="nav-number">3.</span> <span class="nav-text">MIPS</span></a></li></ol></div>
             
 
           </div>
@@ -531,7 +570,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 
@@ -630,6 +669,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
