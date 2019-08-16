@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="java,">
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="这是我的第一个git笔记.虽然以前零零散散学过几次git但都没有系统地整理过,这次把它记录下来免得以后再重学. 基础初始配置123$ git init$ git config --global user.name = &quot;name&quot;$ git config --global user.email = &quot;email&quot; 提交本地代码12345$ git add [filename]$ git commi">
+<meta name="description" content="sychronized 基本使用 修饰实例方法 修饰静态方法 修饰代码块  顺序执行修饰普通方法1234567891011121314151617181920212223242526272829class Main &amp;#123;    public synchronized void method1() &amp;#123;        System.out.println(&quot;Method 1 star">
+<meta name="keywords" content="java">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Git学习笔记">
-<meta property="og:url" content="http://yoursite.com/2019/08/15/Git学习笔记/index.html">
+<meta property="og:title" content="java_sychronized">
+<meta property="og:url" content="http://yoursite.com/2019/08/16/java-sychronized/index.html">
 <meta property="og:site_name" content="追风">
-<meta property="og:description" content="这是我的第一个git笔记.虽然以前零零散散学过几次git但都没有系统地整理过,这次把它记录下来免得以后再重学. 基础初始配置123$ git init$ git config --global user.name = &quot;name&quot;$ git config --global user.email = &quot;email&quot; 提交本地代码12345$ git add [filename]$ git commi">
+<meta property="og:description" content="sychronized 基本使用 修饰实例方法 修饰静态方法 修饰代码块  顺序执行修饰普通方法1234567891011121314151617181920212223242526272829class Main &amp;#123;    public synchronized void method1() &amp;#123;        System.out.println(&quot;Method 1 star">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-08-15T06:36:07.584Z">
+<meta property="og:updated_time" content="2019-08-16T13:58:51.283Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Git学习笔记">
-<meta name="twitter:description" content="这是我的第一个git笔记.虽然以前零零散散学过几次git但都没有系统地整理过,这次把它记录下来免得以后再重学. 基础初始配置123$ git init$ git config --global user.name = &quot;name&quot;$ git config --global user.email = &quot;email&quot; 提交本地代码12345$ git add [filename]$ git commi">
+<meta name="twitter:title" content="java_sychronized">
+<meta name="twitter:description" content="sychronized 基本使用 修饰实例方法 修饰静态方法 修饰代码块  顺序执行修饰普通方法1234567891011121314151617181920212223242526272829class Main &amp;#123;    public synchronized void method1() &amp;#123;        System.out.println(&quot;Method 1 star">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/08/15/Git学习笔记/">
+  <link rel="canonical" href="http://yoursite.com/2019/08/16/java-sychronized/">
 
 
 
 
 
-  <title>Git学习笔记 | 追风</title>
+  <title>java_sychronized | 追风</title>
   
 
 
@@ -252,7 +253,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/15/Git学习笔记/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/16/java-sychronized/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Lynne">
@@ -269,7 +270,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Git学习笔记</h1>
+          <h1 class="post-title" itemprop="name headline">java_sychronized</h1>
         
 
         <div class="post-meta">
@@ -281,8 +282,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-08-15T14:33:29+08:00">
-                2019-08-15
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-08-16T21:47:24+08:00">
+                2019-08-16
               </time>
             
 
@@ -313,7 +314,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  245
+                  277
                 </span>
               
 
@@ -350,26 +351,17 @@
       
 
       
-        <p>这是我的第一个git笔记.虽然以前零零散散学过几次git但都没有系统地整理过,这次把它记录下来免得以后再重学.</p>
-<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h3 id="初始配置"><a href="#初始配置" class="headerlink" title="初始配置"></a>初始配置</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git init</span><br><span class="line"><span class="meta">$</span> git config --global user.name = "name"</span><br><span class="line"><span class="meta">$</span> git config --global user.email = "email"</span><br></pre></td></tr></table></figure>
-<h3 id="提交本地代码"><a href="#提交本地代码" class="headerlink" title="提交本地代码"></a>提交本地代码</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git add [filename]</span><br><span class="line"><span class="meta">$</span> git commit -m "your comment"</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span> git add .</span><br><span class="line">.gitignore文件可以用于排除</span><br></pre></td></tr></table></figure>
-<h3 id="查看改动"><a href="#查看改动" class="headerlink" title="查看改动"></a>查看改动</h3><p>查看当前未提交的改动过的文件</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git status</span><br></pre></td></tr></table></figure>
-<p>查看具体改动</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git diff</span><br></pre></td></tr></table></figure>
-<h3 id="查看提交记录"><a href="#查看提交记录" class="headerlink" title="查看提交记录"></a>查看提交记录</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git log</span><br></pre></td></tr></table></figure>
-<h3 id="撤销未提交的更改"><a href="#撤销未提交的更改" class="headerlink" title="撤销未提交的更改"></a>撤销未提交的更改</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git checkout [filename]</span><br></pre></td></tr></table></figure>
-<h3 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git reset --hard [版本号]</span><br></pre></td></tr></table></figure>
-<p>查看历史</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git reflog</span><br></pre></td></tr></table></figure>
-<h3 id="关联github"><a href="#关联github" class="headerlink" title="关联github"></a>关联github</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git remote origin master "repo_adress"</span><br></pre></td></tr></table></figure>
-<h3 id="推送到github"><a href="#推送到github" class="headerlink" title="推送到github"></a>推送到github</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push origin [branch_name]</span><br></pre></td></tr></table></figure>
-<h2 id="分支管理"><a href="#分支管理" class="headerlink" title="分支管理"></a>分支管理</h2><h3 id="创建分支"><a href="#创建分支" class="headerlink" title="创建分支"></a>创建分支</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git branch branch_name</span><br></pre></td></tr></table></figure>
-<h3 id="切换分支"><a href="#切换分支" class="headerlink" title="切换分支"></a>切换分支</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git checkout [-b]  branch_name</span><br></pre></td></tr></table></figure>
-<p>-b 参数表示创建并切换</p>
-<h3 id="查看分支"><a href="#查看分支" class="headerlink" title="查看分支"></a>查看分支</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git branch</span><br></pre></td></tr></table></figure>
-<h3 id="合并分支"><a href="#合并分支" class="headerlink" title="合并分支"></a>合并分支</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">合并指定分支到当前分支</span><br><span class="line"><span class="meta">$</span> git merge branch_name</span><br></pre></td></tr></table></figure>
-<h3 id="删除分支"><a href="#删除分支" class="headerlink" title="删除分支"></a>删除分支</h3><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git branch -d branch_name</span><br></pre></td></tr></table></figure>
+        <h1 id="sychronized-基本使用"><a href="#sychronized-基本使用" class="headerlink" title="sychronized 基本使用"></a>sychronized 基本使用</h1><ol>
+<li>修饰实例方法</li>
+<li>修饰静态方法</li>
+<li>修饰代码块</li>
+</ol>
+<h1 id="顺序执行"><a href="#顺序执行" class="headerlink" title="顺序执行"></a>顺序执行</h1><h2 id="修饰普通方法"><a href="#修饰普通方法" class="headerlink" title="修饰普通方法"></a>修饰普通方法</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Main</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">synchronized</span> <span class="keyword">void</span> <span class="title">method1</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"Method 1 start"</span>);</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            System.out.println(<span class="string">"Method 1 execute"</span>);</span><br><span class="line">            Thread.sleep(<span class="number">3000</span>);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">"Method 1 end"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">synchronized</span> <span class="keyword">void</span> <span class="title">method2</span><span class="params">()</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"Method 2 start"</span>);</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            System.out.println(<span class="string">"Method 2 execute"</span>);</span><br><span class="line">            Thread.sleep(<span class="number">1000</span>);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">"Method 2 end"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">final</span> Main test = <span class="keyword">new</span> Main();</span><br><span class="line">        <span class="keyword">new</span> Thread(() -&gt; test.method1()).start();</span><br><span class="line">        <span class="keyword">new</span> Thread(() -&gt; test.method2()).start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h4><p>method1执行并退出后才执行method2</p>
+<h4 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h4><p>通过同一个对象去调用上了同步锁的不同方法时,这些方法会竞争同一个对象上的锁,造成互斥,故只能顺序执行</p>
+<h2 id="修饰静态方法"><a href="#修饰静态方法" class="headerlink" title="修饰静态方法"></a>修饰静态方法</h2><p>同一个类的不同实例调用上了同步锁的不同<em>静态</em>方法</p>
+<h2 id="修饰代码块"><a href="#修饰代码块" class="headerlink" title="修饰代码块"></a>修饰代码块</h2><p>在执行的代码块前加上*sychronize(this), 同修饰普通方法</p>
+<p>也可以sychronize(object) 锁住其它对象, 这是修饰代码块与修饰方法的一大不同</p>
 
       
     </div>
@@ -385,6 +377,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/java/" rel="tag"># java</a>
+          
+        </div>
+      
 
       
       
@@ -394,8 +392,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/08/15/汇编笔记/" rel="next" title="汇编笔记">
-                <i class="fa fa-chevron-left"></i> 汇编笔记
+              <a href="/2019/08/15/Git学习笔记/" rel="next" title="Git学习笔记">
+                <i class="fa fa-chevron-left"></i> Git学习笔记
               </a>
             
           </div>
@@ -403,10 +401,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/08/16/java-sychronized/" rel="prev" title="java_sychronized">
-                java_sychronized <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -539,7 +533,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#基础"><span class="nav-number">1.</span> <span class="nav-text">基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#初始配置"><span class="nav-number">1.1.</span> <span class="nav-text">初始配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#提交本地代码"><span class="nav-number">1.2.</span> <span class="nav-text">提交本地代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看改动"><span class="nav-number">1.3.</span> <span class="nav-text">查看改动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看提交记录"><span class="nav-number">1.4.</span> <span class="nav-text">查看提交记录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#撤销未提交的更改"><span class="nav-number">1.5.</span> <span class="nav-text">撤销未提交的更改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#版本回退"><span class="nav-number">1.6.</span> <span class="nav-text">版本回退</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关联github"><span class="nav-number">1.7.</span> <span class="nav-text">关联github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#推送到github"><span class="nav-number">1.8.</span> <span class="nav-text">推送到github</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分支管理"><span class="nav-number">2.</span> <span class="nav-text">分支管理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建分支"><span class="nav-number">2.1.</span> <span class="nav-text">创建分支</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#切换分支"><span class="nav-number">2.2.</span> <span class="nav-text">切换分支</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看分支"><span class="nav-number">2.3.</span> <span class="nav-text">查看分支</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#合并分支"><span class="nav-number">2.4.</span> <span class="nav-text">合并分支</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除分支"><span class="nav-number">2.5.</span> <span class="nav-text">删除分支</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#sychronized-基本使用"><span class="nav-number">1.</span> <span class="nav-text">sychronized 基本使用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#顺序执行"><span class="nav-number">2.</span> <span class="nav-text">顺序执行</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#修饰普通方法"><span class="nav-number">2.1.</span> <span class="nav-text">修饰普通方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#结果"><span class="nav-number">2.1.0.1.</span> <span class="nav-text">结果</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#说明"><span class="nav-number">2.1.0.2.</span> <span class="nav-text">说明</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修饰静态方法"><span class="nav-number">2.2.</span> <span class="nav-text">修饰静态方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修饰代码块"><span class="nav-number">2.3.</span> <span class="nav-text">修饰代码块</span></a></li></ol></div>
             
 
           </div>
